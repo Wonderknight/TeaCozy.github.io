@@ -1,0 +1,216 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Smythe;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header {
+  display: inline-flex;
+  border-bottom: 5px outset rgb(229, 137, 137);  
+  align-items: center;
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  justify-content: space-between;
+}
+
+.TeaCozy {
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+a {
+  color: seashell;
+  padding: 1%; 
+}
+
+a:hover {
+  color: red;
+  cursor: crosshair;
+}
+
+.link1 {
+  padding-left: 50%;
+}
+
+/*Der Mittelteil OUR MISSION*/
+
+.Ramen {  
+  display: flex;
+  text-align: center;  
+  justify-content: center;
+  width: 100%;   
+}
+
+.OurMission {
+  padding-top: 300px;
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+  height: 700px;
+  width: 1200px;
+  border-radius: 15px;
+
+}
+
+h2, h4 {
+  background-color: black;
+  width: 1200px;
+  font-weight: bold;
+  color: rgb(201, 191, 184);
+}
+
+/*Tea of the Month part*/
+
+.Erste {
+  font-size: 80px;
+}
+
+.Zweite {
+  font-size: 50px;
+}
+
+.Ramen2 {
+  display: flex;
+  justify-content: center;
+}
+
+.Überschrift {  
+  text-align: center;
+  padding-top: 90px;
+}
+
+.ThePicture {  
+  width: 1000px;
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.picture {
+  padding: 10px;
+} 
+
+.photo {
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.Ramen3 {
+  display: flex;
+  text-align: center;  
+  justify-content: center;
+  padding-top: 4cm;
+  
+} 
+
+.Container {
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+  width: 1200px;
+  height: 500px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.Locations {
+  font-size: 100px;
+  color: rgb(255, 225, 189);
+  margin-top: 4cm;
+  
+}
+
+.TheLocations {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 1;  
+}
+
+.Downtown {
+  font-size: 40px;
+  opacity: 1;
+  background-color: black;
+  width: 200px;
+  border: solid rgb(26, 22, 22) 5px;
+}
+
+.Downtown h5 {
+  font-size: 20px;
+  font-weight: lighter;
+
+}
+
+.East_Bayside {
+  font-size: 40px;
+  opacity: 1;
+  background-color: black;
+  width: 200px;
+  border: solid rgb(26, 22, 22) 5px;
+
+}
+
+
+
+.East_Bayside h5 {
+  font-size: 20px;
+  font-weight: lighter;
+
+}
+
+.Oakdale {
+  font-size: 40px;
+  opacity: 1;
+  background-color: black;
+  width: 200px;
+  border: solid rgb(26, 22, 22) 5px;
+}
+
+.Oakdale h5 {
+  font-size: 20px;
+  font-weight: lighter;
+
+}
+
+
+.Ramen4 {  
+  text-align: center; 
+  height: 200px; 
+}
+
+.Schluss1 {
+  font-size: 50px;
+}
+
+.Schluss2 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.Schluss1, .Schluss2 {
+  padding-top: 10px;
+}
+
+/*The End*/
+
+.TheEnd {
+  display: flex;
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.copyright {
+  font-size: 20px;
+}
